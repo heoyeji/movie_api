@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body {
+  background-color: #333;
+}
+
+h3 {
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 30px;
+}
+
+#results {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  /* 원하는 스타일 추가 */
+  border-bottom: 3px solid var(--point-color-orange);
+  padding: 10px 10px;
+  border-radius: 5px;
+  /* background-color: #fff; */
+  color: #fff;
+  display: flex;
+  width: 40%;
+  height: 500px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.movie:first-of-type {
+  margin-top: 120px;
+}
+
+.movie:nth-of-type(2) {
+  margin-top: 120px;
+}
+
+.movie:last-of-type {
+  margin-bottom: 120px;
+}
+
+.movie img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 100px;
+  object-position: bottom;
+  border: 1px solid #ccc;
+}
+
+.movie h2 {
+  padding-bottom: 10px;
+  font-size: 27px;
+  color: var(--point-color-orange);
+  border-radius: 10px;
+}
+
+.movie p {
+  margin: 5px 0;
+  line-height: 30px;
+}
+
+.yellow {
+  color: var(--point-color-orange);
+}
